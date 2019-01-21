@@ -1,0 +1,221 @@
+name: Hcf
+prefix: 'Faithful Hardcore Factions'
+version: 6.0-FMC
+description: FaithfulMC Hardcore Factions
+author: Luxor Development Team
+main: com.faithfulmc.hardcorefactions.HCF
+softdepend: [ProtocolLib, SimpleCheat, Vault, TabListAPI]
+commands:
+  random:
+    description: Random teleports to a player
+  sotw:
+    description: SOTW management command
+  refund:
+    description: Refunds items of a player
+  endportal:
+    description: Creates an ender portal
+  spawner:
+    description: Gives you a spawner
+  regen:
+    description: Displays DTR information
+  hub:
+    description: Go to the hub server
+  angle:
+    description: Check your yaw and pitch position.
+  crowbar:
+    description: Management of crowbar tools.
+  conquest:
+    description: Command used to handle Conquest events.
+  economy:
+    aliases: [bal, money, eco, econ]
+    description: Command used to modify the economy.
+  end:
+    description: Command used to close or open the end.
+  eotw:
+    aliases: [endoftheworld]
+    description: Sets if the server is in End of the World mode.
+  faction:
+    aliases: [f, fac]
+    description: Faction related commands.
+  gopple:
+    description: Command to check remaining OP apple cooldown cooldown.
+    aliases: [goppletimer, goppletime]
+  help:
+    aliases: ["?"]
+    description: Find out more about this server.
+  stats:
+    description: Checks the staticstics on a player.
+  knockback:
+  lives:
+    description: Management of lives or deathbans.
+  location:
+    aliases: [loc]
+    description: Check the faction location of a player.
+  logout:
+    aliases: [disconnect]
+    description: Command to safely logout without an NPC spawning
+  mapkit:
+    description: Used to check the current map restrictions.
+  obtain:
+    description: Obtain a Para key every day for free.
+  pay:
+    description: Allow players to pay money.
+  pvptimer:
+    aliases: [pvp]
+    description: Command to enable or disable pvp timer protection.
+  servertime:
+    description: Checks the date and cooldown of server.
+  setborder:
+    aliases: [setbordersize]
+    description: Sets the border size of an Environment.
+  cannon:
+    aliases: [cannon, playercannon]
+    description: Shoots you into the warzone.
+  spawn:
+    description: Teleport to the server spawn.
+  staffrevive:
+    description: Revive a player
+  timer:
+    description: Command to manage timers.
+  togglecapzone:
+    description: Command used to hide or show capture zone entry messages.
+  togglelightning:
+    description: Toggles the lightning strikes for when a player dies.
+  togglesidebar:
+    aliases: ['scoreboard','togglesb','sbtoggle','togglescoreboard','sb','sidebar']
+    description: Toggles the scoreboard timers displayed on sidebar.
+  bottle:
+    description: Bottles all of your XP
+    aliases: ['xpbottle','bottlexp','bottlemyxp','craftxp']
+  ruby:
+    description: Revive other players with the ruby rank
+  sapphire:
+    desciption: Revive other players with the sapphire rank
+    aliases: ['saphire']
+  platinum:
+    desciption: Revive other players with the sapphire rank
+  reclaim:
+    description: Claims SOTW loot
+  mod:
+    aliases: ['modmode','staff','staffmode']
+    description: Toggles mod mode
+  cobble:
+    aliases: ['nocobble','togglecobble','cobblestone','nocobblestone','togglecobblestone']
+    description: Toggles cobblestone item pickup
+  diamonds:
+    aliases: ['fdalerts','fd','diamond','founddiamonds','xray','xrayalerts','diamondalerts','diamondsalerts']
+    description: Toggles whether a player has found diamond alerts enabled
+  glowstone:
+    aliases: ['glowstonemountain','glowmountain']
+    description: Manages the glowstone mountain
+  oremountain:
+    aliases: ['orem','oresmountain']
+    description: Manages the ore mountain
+  statsreset:
+    aliases: ['resetstats','reset']
+    description: Reset the stats of a player
+  buy:
+    aliases: ['shop','donate','store']
+    description: View donation information
+  teamspeak:
+    aliases: ['ts','ts3','tsip','teamspeakip']
+    description: Teamspeak information
+  coords:
+    aliases: ['events','cords','locations','koths','conquests','games']
+    description: Displays event information
+  website:
+    aliases: ['site','reddit','forums','forum']
+    description: Displays website information
+  event:
+    aliases: ['game','koth','schedule','nextkoth','conquest']
+    description: Command used to manage events
+  forceannounce:
+    description: Announces the donation message
+  focus:
+    description: Focuses a player
+  setendspawn:
+    description: Sets the end spawn
+  setendexit:
+    description: Sets the end exit
+  ores:
+    description: Shows the ores of a player
+  seen:
+    description: Shows when a player was last online
+  kit:
+    aliases: ['kitmanager']
+    description: Manages kits
+  back:
+    description: Teleports you back to your previous location
+  stack:
+    aliases: ['stackitems', 'order']
+    description: Stacks items
+  condense:
+    aliases: ['stackores', 'orderores', 'orderingots', 'stackingots', 'ingots']
+    description: Turns ingots into blocks
+  mobdrops:
+    aliases: ['mobloot']
+    description: Toggles the pickup of mob loot
+  staffserver:
+    aliases: ['play']
+    description: Sends a staff member to a server
+  setreclaimed:
+    description: Sets whether a user has reclaimed
+  ptime:
+    description: Changes player cooldown
+  near:
+    description: Shows nearby players
+  spawncredit:
+    aliases: ['spawncredits']
+    description: Allows players to teleport to spawn
+  setworldregion:
+    description: Used to setup the regions in a map
+  addworldregion:
+    description: Used to setup the regions in a map
+  playervault:
+    aliases: ['pv','vault','echest','enderchest']
+    description: Used to access a player vault
+  famous:
+    description: Shows famous rank requirements
+  youtube:
+    description: Displays youtube rank requirements
+  miner:
+    aliases: ['minereffects','minerrewards']
+    description: Displays all miner effects
+  playtime:
+    aliases: ['pt','playertime']
+    description: View playtime
+  dev:
+    aliases: ['devcommand']
+    description: Development
+  lff:
+    aliases: ['lookingforafaction','lookingforfaction']
+    description: Announce you are looking for a faction
+  lffalerts:
+    aliases: ['lfftoggle','togglelff','togglelffalerts','lffa']
+    description: Toggle LFF alerts
+  oreinventory:
+    aliases: ['autoores','autoore','orei','inventoryores','itempickup','orepickup']
+    description: Toggle ore pickup
+  winrank:
+    description: Used by console to automatically assign ranks to players
+  godkits:
+    aliases: ['gkit','gk','gkits','globalkits','kits']
+    description: Access the god kits inventory
+  repairable:
+    description: Set qhw
+  panic:
+    description: Alert online staff to an unusual event
+  toggledeathmessages:
+    aliases: ['tdm','toggledm','deathmessages','deaths','toggledeaths']
+    description: Toggles death messages
+  broadcastlocation:
+    aliases: ['bl','tl','loc','telllocation']
+    description: Broadcasts your location to the whole server
+  locationalerts:
+    aliases: ['bla','tla','loca','bl']
+    description: Toggle location broadcast alerts
+  disguise:
+    aliases: ['dis']
+    description: Disguises as a mob
+  keysale:
+    description: Manage the key sale

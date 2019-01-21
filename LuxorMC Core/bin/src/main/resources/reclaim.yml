@@ -1,0 +1,61 @@
+apprentice:
+    name: '&8Apprentice'
+    commands:
+    - bc &f&l{PLAYER} &7claimed their &8&lApprentice perks &7using the command &f&l/reclaim
+    - crate givekey {PLAYER} Silver 2
+    - lives give {PLAYER} 1
+intern:
+    name: '&6Intern'
+    commands:
+    - bc &f&l{PLAYER} &7claimed their &6&lIntern perks &7using the command &f&l/reclaim
+    - crate givekey {PLAYER} Ultra 2
+    - lives give {PLAYER} 3
+mogul:
+    name: '&3Mogul'
+    commands:
+    - bc &f&l{PLAYER} &7claimed their &3&lMogul perks &7using the command &f&l/reclaim
+    - crate givekey {PLAYER} Luxor 2
+    - lives give {PLAYER} 5
+banker:
+    name: '&aBanker'
+    commands:
+    - bc &f&l{PLAYER} &7claimed their &a&lBanker perks &7using the command &f&l/reclaim
+    - crate givekey {PLAYER} Luxor 5
+    - lives give {PLAYER} 10
+genius:
+    name: '&cGenius'
+    commands:
+    - bc &f&l{PLAYER} &7claimed their &c&lGenius perks &7using the command &f&l/reclaim
+    - crate givekey {PLAYER} Luxor 10
+    - lives give {PLAYER} 30
+mastermind:
+    name: '&dMastermind'
+    commands:
+    - bc &f&l{PLAYER} &7claimed their &d&lMastermind perks &7using the command &f&l/reclaim
+    - crate givekey {PLAYER} Luxor 20
+    - lives give {PLAYER} 50
+luxor:
+    name: '&b&lLuxor'
+    commands:
+    - bc &f&l{PLAYER} &7claimed their &b&lLuxor perks &7using the command &f&l/reclaim
+    - crate givekey {PLAYER} Luxor 30
+    - lives give {PLAYER} 100
+media:
+    name: '&d&oMedia'
+    commands:
+    - bc &f&l{PLAYER} &7claimed their &d&lMedia perks &7using the command &f&l/reclaim
+    - crate givekey {PLAYER} Luxor 10
+    - lives give {PLAYER} 10
+famous:
+    name: '&2Famous'
+    commands:
+    - bc &f&l{PLAYER} &7claimed their &2&lFamous perks &7using the command &f&l/reclaim
+    - crate givekey {PLAYER} Luxor 15
+    - lives give {PLAYER} 20
+partner:
+    name: '&3Partner'
+    commands:
+    - bc &f&l{PLAYER} &7claimed their &3&lPartner perks &7using the command &f&l/reclaim
+    - crate givekey {PLAYER} Luxor 20
+    - lives give {PLAYER} 50
+   

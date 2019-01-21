@@ -1,0 +1,107 @@
+title: Faithful
+timezone: EST
+disallowed-faction-names:
+- EOTW
+enchantment-limits:
+  PROTECTION_ENVIRONMENTAL: 1
+  DAMAGE_ALL: 1
+  ARROW_KNOCKBACK: 1
+  KNOCKBACK: 0
+  FIRE_ASPECT: 0
+  THORNS: 0
+  ARROW_FIRE: 1
+  ARROW_DAMAGE: 4
+  DURABILITY: 3
+disabled-enchants:
+- DAMAGE_ARTHROPODS
+- DAMAGE_UNDEAD
+- PROTECTION_EXPLOSIONS
+- PROTECTION_PROJECTILE
+- PROTECTION_FIRE
+- THORNS
+- WATER_WORKER
+- OXYGEN
+potion-limits:
+  INSTANT_DAMAGE: 0
+  REGEN: 0
+  STRENGTH: 0
+  WEAKNESS: 0
+  SLOWNESS: 0
+  INVISIBILITY: 1
+  POISON: 1
+  FIRE_RESISTANCE: 1
+  SPEED: 2
+potion-limits-short:
+  SLOWNESS: false
+potion-limits-long:
+  POISON: false
+border-sizes:
+  NORMAL: 3000
+  NETHER: 1000
+  THE_END: 1500
+spawn-radius:
+  NORMAL: 75.0
+  NETHER: 62.5
+  THE_END: 0.0
+map-number: 1
+faction-size: 15
+allies: 0
+default-deathban-time: 180
+default-koth-time: 15
+conquest-win-points: 300
+spawnbuffer: 300
+warzone-radius: 1000
+kitmap: false
+invis-fix: false
+main-color: GOLD
+side-color: YELLOW
+extra-color: GRAY
+scoreboard-color: GRAY
+line-color: DARK_GRAY
+arrow-color: GOLD
+outstanding-color: GREEN
+addon-color: RED
+enemy-color: YELLOW
+teammate-color: GREEN
+ally-color: AQUA
+archer-color: RED
+luxor: false
+scoreboard-title: '&6&l%title% &c[Map %number%]'
+spawner-price: 20000
+doublearrow: '»'
+nearby-claim-radius: 2
+claim-price-block: 0.25
+default-vault-rows: 0
+hubs: 8
+rogue-enabled: false
+citadel-capture-days: 5.5
+diamonds-metadata: false
+stattrack: false
+xp:
+  default-multiplier: 2.0
+  looting-multiplier: 1.5
+vault-rows:
+  plugin.playervaults.staff: 4
+teamspeak: 'ts.faithfulmc.com'
+store: 'store.faithfulmc.com'
+site: 'www.faithfulmc.com'
+top-rank: Faithful
+dtr-freeze-time: 30
+dtr-update-seconds: 30
+ore-multiplier: 1.25
+deathban-multiplier: 1
+pvptimer-minutes: 60
+starting-money: 500
+first-koth:
+  day: 0
+  hour: 18
+conquest:
+  day: 1
+  hour: 13
+mongo:
+  enabled: false
+  host: 127.0.0.1
+  port: 27017
+  user: root
+  password: ''
+  database: Faithful

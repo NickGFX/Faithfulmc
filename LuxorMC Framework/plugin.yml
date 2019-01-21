@@ -1,0 +1,181 @@
+name: Framework
+version: 4.0-FMC
+author: levanjs01
+main: com.faithfulmc.framework.BasePlugin
+softdepend: [Vault, Practice, FaithfulMCHub]
+commands:
+  core:
+  warp:
+    aliases: [gw, globalwarp]
+  clearlagg:
+    aliases: ["cl", "laggclear", "clearlag", "clag"]
+  announcement:
+    aliases: ["announce", "ann"]
+  list:
+    aliases: [who]
+  note:
+  copyinv:
+  amivis:
+    aliases: ["amivanish", "amivanished", "?invis", "?v", "?vis", "invis?", "vis?", "v?"]
+    description: Command used to check if visible.
+  biome:
+    description: Check the biome a player is in.
+  broadcast:
+    aliases: [bc]
+    description: Broadcast a server message.
+  broadcastraw:
+    aliases: [bcraw, raw, rawcast]
+    description: Broadcast a raw server message.
+  clearchat:
+    aliases: [cc]
+    description: Clear the chat history.
+  clearinv:
+    aliases: [ci, clear, cpinv]
+    description: Clears a player inventory.
+  craft:
+    aliases: [wbench, workbench]
+    description: Opens a workbench inventory.
+  enchant:
+    description: Enchant an item.
+  entities:
+    description: Check the entities in a world.
+  fly:
+    description: Toggle flight for a player.
+  feed:
+    description: Feed a player.
+  freeze:
+    description: Command used to freeze players.
+    aliases: [ss]
+  gamemode:
+    aliases: [gm]
+    description: Update a players gamemode.
+  give:
+    description: Give an item to a player.
+  hat:
+    description: Wear something as a hat.
+  heal:
+    description: Heal a player.
+  id:
+    description: Check the id of an item.
+  ignore:
+    description: Ignore a player from messaging you
+  invsee:
+    aliases: [inventory, inventorysee, inv]
+    description: View a players inventory.
+  item:
+    aliases: [i]
+    description: Spawn an item.
+  iphistory:
+    description: Check the history an IP address or player.
+  kill:
+    aliases: [suicide, slay]
+    description: Kill a player.
+  lag:
+    description: Check the server lag.
+  message:
+    aliases: [m, msg, tell, whisper, w]
+    description: Messsage an online player.
+  messagespy:
+    aliases: [ms, msgspy, pmspy, whisperspy, privatemessagespy, tellspy]
+    description: Command used to spy on pm's of players.
+  mutechat:
+    aliases: [mc, rc, restrictchat, disablechat]
+    description: Restricts the use of global chat.
+  namehistory:
+    description: Check the name histories of a player.
+  ping:
+    aliases: [p]
+    description: Checks the ping of a player.
+  playertime:
+    aliases: [ptime]
+    description: Shows your player time.
+  position:
+    description: Checks the position of a player.
+  proxycommand:
+    aliases: [proxycmd]
+    description: Used to execute a command from the proxy
+  removeentity:
+    description: Remove entities from the server.
+  rename:
+    description: Command used to rename items.
+  repair:
+    aliases: [fix]
+    description: Allows the repairing of tools.
+  reply:
+    aliases: [r]
+    description: Reply to a player message.
+  rules:
+    description: Shows the server rules.
+  screenshare:
+  setmaxplayers:
+    description: Set the maximum player count.
+  skull:
+    description: Spawn the skull of a player.
+  slowchat:
+    aliases: [slow]
+    description: Sets a delay between chat messages.
+  sounds:
+    aliases: [pmsounds, togglepmsounds, messagingsounds]
+    description: Toggles messaging sounds
+  speed:
+    description: Set your walk or fly speed.
+  staffchat:
+    aliases: [sc, ac]
+    description: Speak in staff chat mode only.
+  stoplag:
+  createworld:
+  sudo:
+    description: Force another player to run a command.
+  teleport:
+    aliases: [tp]
+    description: Teleport to a player or location.
+  teleportall:
+    aliases: [tpall]
+    description: Teleport all online players somewhere.
+  teleporthere:
+    aliases: [tphere]
+    description: Teleport a player to self.
+  togglechat:
+    aliases: [tgc, toggleglobalchat]
+    description: Toggles global chat visibility on or off.
+  togglestaffchat:
+    aliases: [tsc, togglesc]
+    description: Toggles staff chat visibility on or off.
+  togglemessages:
+    aliases: [togglepm, toggleprivatemessages]
+    description: Disable private messages.
+  top:
+    description: Teleport to highest spot of world
+  unfreeze:
+    description: Un-freezes' a player.
+  uptime:
+    description: Check how long a server has been up for.
+  vanish:
+    aliases: [v, vis, vanish, invis]
+    description: Hide yourself from other players.
+  whois:
+    description: Check information about a player.
+  world:
+    description: Change your current world.
+  report:
+    description: Report a player
+    aliases: [hacker]
+  helpop:
+    description: Alert staff
+    aliases: [panic, request]
+  a:
+    aliases: [announcement,an]
+    description: Manages announcements
+  settings:
+    aliases: [options]
+    description: Displays settings inventory
+  hide:
+    description: Manages hidden regions
+  nickname:
+    aliases: [nick]
+    description: Sets your nickname
+  realname:
+    description: Displays online players with a certain nickname
+  chat:
+    aliases: ["c", "chatcolor", "color", "chatcolour", "colour", "chatsettings", "chatsetting"]
+    desription: Changes your chatcolor

@@ -1,0 +1,17 @@
+# Created by .ignore support plugin (hsz.mobi)
+bin
+.idea
+.settings
+.classpath
+.project
+Faithful.iml
+HCF(33).jar.src.zip
+*.iml
+.gradle
+
+src/main/java/META-INF
+
+build
+classes
+target
+out

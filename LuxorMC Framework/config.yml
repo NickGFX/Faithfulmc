@@ -1,0 +1,4 @@
+chat:
+  enabled: false
+  slowed: false
+  slowed-delay: 15

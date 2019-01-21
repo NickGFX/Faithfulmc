@@ -1,0 +1,38 @@
+inventoryTitle: '&b&lGod Kits'
+inventorySize: 45
+loreLines:
+- ''
+- '&8&l* &b&lStatus &7%status%'
+- '&8&l* &b&lPurchase &7this god kit at &fstore.luxormc.com'
+- ''
+kits:
+  GodDiamond:
+    display: '&b&lGod Diamond Kit'
+    slot: 12
+    type: DIAMOND_CHESTPLATE
+    data: 0
+  GodBard:
+    display: '&6&lGod Bard Kit'
+    slot: 16
+    type: GOLD_CHESTPLATE
+    data: 0
+  GodArcher:
+    display: '&d&lGod Archer Kit'
+    slot: 10
+    type: LEATHER_CHESTPLATE
+    data: 0
+  GodRogue:
+    display: '&7&lGod Rogue Kit'
+    slot: 14
+    type: CHAINMAIL_CHESTPLATE
+    data: 0
+  GodMiner:
+    display: '&f&lGod Miner Kit'
+    slot: 29
+    type: DIAMOND_PICKAXE
+    data: 0
+  GodTrapper:
+    display: '&c&lGod Trapping Kit'
+    slot: 33
+    type: DIAMOND_SPADE
+    data: 0

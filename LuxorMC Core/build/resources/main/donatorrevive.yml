@@ -1,0 +1,12 @@
+platinum:
+    prefix: '&7[Platinum Revive] &f'
+    name: '&f&lPlatinum'
+    cooldown: 10
+sapphire:
+    prefix: '&9[Sapphire Revive] &f'
+    name: '&9&lSapphire'
+    cooldown: 15
+ruby:
+    prefix: '&c[Ruby Revive] &f'
+    name: '&c&lRuby'
+    cooldown: 30
