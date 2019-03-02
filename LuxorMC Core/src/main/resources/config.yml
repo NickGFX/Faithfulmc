@@ -100,6 +100,7 @@ conquest:
   hour: 13
 mongo:
   enabled: false
+  auth: false
   host: 127.0.0.1
   port: 27017
   user: root
